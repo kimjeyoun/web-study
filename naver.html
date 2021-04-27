@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <title>Naver</title>
     <Link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./naver.css" >
 </head>
 <body>
-    <h1>
-        <a href="https://www.naver.com/">네이버</a>
-    </h1>
-    <h2>검색창</h2>
-    <fieldset>
-        <legend>검색</legend>
-        <input />
-        <button>검색</button>
-    </fieldset>
+    <header>
+        <div id="header-center">
+            <div>
+                <span>네이버를 시작페이지로</span>
+                <span>쥬니버네이버</span>
+                <span>해피빈</span>
+            </div>
+            <div id="header-search">
+                <a href="https://www.naver.com/">
+                    <h1><span class="blind">네이버</span></h1>
+                </a>
+                <h2 class="blind">검색창</h2>
+                <fieldset>
+                    <legend class="blind">검색</legend>
+                    <input />
+                    <button class="blind">검색</button>
+                </fieldset>
+            </div>
+        </div>
+    </header>
+<nav>
     <ul> <!-- unordered list-->
         <li>메일</li> <!-- list item -->
         <li>카페</li> <!-- list item -->
@@ -36,5 +49,8 @@
         <li>웹툰</li> <!-- list item -->
     </ul>
     <a href="">더보기</a>
+</nav>
+
+
 </body>
 </html>
