@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+}
+
 .blind {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -17,8 +21,9 @@
     display: inline-block;
     width: 222px;
     height: 52px;
-    background: url(./img1.png) 0 -158px no-repeat;
-    background-size: 433px 409px;
+    background: url(./img1.jpg) 0 -158px no-repeat;
+    background-size: 440px 410px;
+    vertical-align: middle;
 }
 
 #header-search a {
@@ -29,4 +34,42 @@
     width: 582px;
     height: 52px;
     display: inline-block;
+    border: 2px solid #19ce60;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin-left: 20px;
 }
+
+#header-search fieldset input {
+    border: none;
+    width: 444px;
+    height: 24px;
+    padding: 17px 15px;
+    margin: 1px;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 700;
+    outline: 0;
+}
+
+#header-search fieldset button {
+    background-color: #19ce60;
+    width: 56px;
+    height: 56px;
+    border: none;
+    padding: 0;
+}
+
+#search-image {
+    background: url("./img1.jpg") -270px -342px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: top;
+    background-size: 433px 409px;
+}
+/* 3주차 과제 스프레트 시트에 내이름으로 시트 만들고 거기에 릴레티브와 앱솔루트 설명한뒤
+그것에 대한 예제 코드 하나 만든거 올리기
+ */
