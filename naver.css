@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-#header-center {
+.center-align {
     margin: 0 auto;
     width: 1190px;
 }
@@ -31,8 +31,9 @@
 }
 
 #header-search fieldset {
+    position: relative;
     width: 582px;
-    height: 52px;
+    height: 56px;
     display: inline-block;
     border: 2px solid #19ce60;
     border-radius: 2px;
@@ -55,11 +56,35 @@
 }
 
 #header-search fieldset button {
+    position: absolute;
+    right: -2px;
+    top: -2px;
     background-color: #19ce60;
     width: 56px;
     height: 56px;
     border: none;
     padding: 0;
+}
+
+#search-keyboard{
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 12px;
+    margin: -6px 0 0 -10px;
+    background: url(./img1.jpg) -160px -327px no-repeat;
+    background-size: 433px 409px;
+}
+
+#search-history{
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    vertical-align: top;
+    background: url(./img1.jpg) -408px -128px no-repeat;
+    background-size: 433px 409px;
+    margin: 15px 8px;
 }
 
 #search-image {
@@ -70,6 +95,90 @@
     vertical-align: top;
     background-size: 433px 409px;
 }
-/* 3주차 과제 스프레트 시트에 내이름으로 시트 만들고 거기에 릴레티브와 앱솔루트 설명한뒤
-그것에 대한 예제 코드 하나 만든거 올리기
- */
+
+nav {
+    margin: 0;
+    padding :0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li:first-child span:first-child {
+    width: 25px;
+    background-position: 0 -285px;
+    margin-left: 0;
+}
+
+nav li span:first-child {
+    height: 20px;
+    display: inline-block;
+    background: url(./sp_nav.png);
+    background-repeat: no-repeat;
+    margin-left: 14px;
+}
+
+nav li:nth-child(2) span:first-child {
+    width: 40px;
+    background-position: -279px -52px;
+}
+
+nav li:nth-child(3) span:first-child {
+    width: 40px;
+    background-position: -100px -182px;
+}
+nav li:nth-child(4) span:first-child {
+    width: 40px;
+    background-position: -101px -156px;
+}
+nav li:nth-child(5) span:first-child {
+    width: 26px;
+    background-position: -279px -156px;
+}
+nav li:nth-child(6) span:first-child {
+    width: 25px;
+    background-position: -70px -285px;
+}
+nav li:nth-child(7) span:first-child {
+    width: 35px;
+    background-position: -125px -130px;
+}
+nav li:nth-child(8) span:first-child {
+    margin-left: 16px;
+    width: 26px;
+    background-position: -279px -208px;
+}
+nav li:nth-child(9) span:first-child {
+    width: 26px;
+    background-position: -128px -104px;
+}
+nav li:nth-child(10) span:first-child {
+    width: 26px;
+    background-position: -36px -259px;
+}
+nav li:nth-child(11) span:first-child {
+    width: 39px;
+    background-position: -151px -156px;
+}
+nav li:nth-child(12) span:first-child {
+    width: 26px;
+    background-position: -279px -130px;
+}
+nav li:nth-child(13) span:first-child {
+    width: 28px;
+    background-position: -234px -233px;
+}
+nav li:nth-child(14) span:first-child {
+    width: 30px;
+    background-position: -195px -233px;
+}
+nav li:nth-child(15) span:first-child {
+    width: 13px;
+    background-position: -140px -78px;
+}
+nav li:nth-child(16) span:first-child {
+    width: 26px;
+    background-position: -279px 0;
+}
