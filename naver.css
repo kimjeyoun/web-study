@@ -17,13 +17,34 @@
     width: 1190px;
 }
 
+header {
+    height: 160px;
+}
+
+#header-top {
+    float: right;
+    margin-right: 50px;
+}
+
+#header-top span {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+
+#header-search {
+    clear: both;
+}
+
 #header-search h1 {
     display: inline-block;
     width: 222px;
     height: 52px;
     background: url(./img1.jpg) 0 -158px no-repeat;
     background-size: 440px 410px;
-    vertical-align: middle;
+    text-indent: 110%;
+    vertical-align: middle; /*추가*/
 }
 
 #header-search a {
@@ -97,6 +118,14 @@
 }
 
 nav {
+    height: 52px;
+    border-top: 1px solid #f1f3f6;
+    border-bottom: 1px solid #d1d8e4;
+    padding: 6px 70px;
+}
+
+nav ul{
+    display: inline-block;
     margin: 0;
     padding :0;
     list-style: none;
@@ -181,4 +210,22 @@ nav li:nth-child(15) span:first-child {
 nav li:nth-child(16) span:first-child {
     width: 26px;
     background-position: -279px 0;
+}
+
+nav li.more:first-child span:first-child {
+    width: 55px;
+    background-position: 0 -104px;
+}
+
+.nav-divider {
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    margin: 18px 10px 0;
+}
+
+main {
+    background-color: gray;
+    display: inline-block;
+    width: 100%;
 }
