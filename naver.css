@@ -3,6 +3,19 @@
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 .blind {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -24,6 +37,8 @@ header {
 #header-top {
     float: right;
     margin-right: 50px;
+    margin-bottom: 8px;
+    margin-top: 18px;
 }
 
 #header-top span {
@@ -225,7 +240,174 @@ nav li.more:first-child span:first-child {
 }
 
 main {
-    background-color: gray;
+    display: inline-block;
+    width: 100%;
+    padding: 20px 30px;
+    margin: 0 auto;
+}
+
+#main-center {
+    width: 1190px;
+}
+
+#main-first-block {
     display: inline-block;
     width: 100%;
 }
+
+#main-ad {
+    float: left;
+    width: 750px;
+    height: 135px;
+    background: antiquewhite;
+    margin-right: 30px;
+    margin-bottom: 11px;
+    border: 1px solid #dae1e6;
+}
+
+#main-ad span {
+    display: inline-block;
+    background: url(./img2.jpg);
+    width: 748px;
+    height: 133px;
+    background-size: cover;
+}
+
+#main-login {
+    float: left;
+    width: 350px;
+    height: 135px;
+    margin-bottom: 11px;
+    background-color: #f7f9fa;
+    border: 1px solid #dae1e6;
+}
+
+#main-login .login-weapprt {
+    padding: 4px 16px 12px 17px;
+}
+
+#main-login p {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    color: gray;
+}
+
+#last-box {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    color: black;
+    margin: 14px 8px 0 4px;
+}
+
+#last-box a{
+    margin-left: 99px;
+    text-decoration: none;
+    color: black;
+}
+
+#main-login .login-box {
+    display: block;
+    padding: 15px 0;
+    margin-top: 11px;
+    background-color: #19ce60;
+    border: 1px solid #15c654;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+#main-login .login-box span {
+    background: url(./img4.png) -209px -267px no-repeat;
+    display: inline-block;
+    width: 60px;
+    height: 12px;
+    vertical-align: top;
+    margin: 2px 5px 0 0;
+    background-size: 440px 408px;
+}
+
+#main-login .login-box a{
+    color: white;
+    text-decoration: none;
+}
+
+#main-bnews {
+    float: left;
+    width: 750px;
+    height: 49px;
+    background: antiquewhite;
+    margin-right: 30px;
+    margin-bottom: 11px;
+}
+
+#main-stock {
+    float: left;
+    width: 350px;
+    height: 49px;
+    background: antiquewhite;
+    margin-bottom: 11px;
+}
+
+#main-third-block .inline-block:first-child {
+    width: 750px;
+}
+
+#main-third-block .inline-block:last-child {
+    width: 350px;
+    vertical-align: top;
+}
+
+#main-newsstand {
+    float: left;
+    width: 750px;
+    height: 318px;
+    margin-bottom: 11px;
+    background: antiquewhite;
+    margin-right: 30px;
+}
+
+#main-category {
+    float: left;
+    width: 750px;
+    height: 1501px;
+    margin-bottom: 11px;
+    background: antiquewhite;
+}
+
+#main-second-ad {
+    float: left;
+    width: 350px;
+    height: 200px;
+    background: antiquewhite;
+    margin-bottom: 11px;
+    margin-left: 24px;
+    border: 1px solid #dae1e6;
+}
+
+#main-second-ad span {
+    display: inline-block;
+    background: url(./img3.jpg);
+    width: 348px;
+    height: 198px;
+    background-size: cover;
+}
+
+#main-shopping {
+    float: left;
+    width: 350px;
+    height: 1539px;
+    background: antiquewhite;
+    margin-left: 24px;
+}
+
+#main-shopping iframe {
+    width: 100%;
+    height: 100%;
+}
+
